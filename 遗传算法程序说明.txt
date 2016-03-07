@@ -1,0 +1,16 @@
+■ dec_seat
+  dev c++ 平台
+
+■ seat
+  VS2012 平台
+
+■ 文件
+  input - 输入参数文件，参照测试里面的输入矩阵修改
+  ani_array - 憎恨关系矩阵
+
+
+■ 参数
+iter		- 每种算法的迭代次数
+random_loop	- 遗传迭代多少次无效之后进行随机种群初始化
+pop_size	- 种群（population）的大小，可采用较大初始种群
+

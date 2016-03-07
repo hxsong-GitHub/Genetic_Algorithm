@@ -1,0 +1,155 @@
+<ID>	1522601	</ID>
+<K>	4	</K>
+<family>
+	<name>	Scarlett	</name>
+	<short>	S	</short>
+	<wife>	Mrs Scarlett	</wife>
+	<husband>	Mr Scarlett	</husband>
+	<others>	5	</others>
+	<animosity>
+		<w2h>	4	</w2h>
+		<h2w>	4	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Greens	</name>
+				<value>	2 	</value>
+			</ani_family>
+			<ani_family>s
+				<name>	Mustards	</name>
+				<value>	1	</value>
+			</ani_family>
+		</Inter_family>
+	</animosity>
+</family>
+
+<family>
+	<name>	Mustard	</name>
+	<short>	M	</short>
+	<wife>	Mrs Mustard	</wife>
+	<husband>	Colonel Mustard	</husband>
+	<others>	5	</others>
+	<animosity>
+		<w2h>	3	</w2h>
+		<h2w>	3	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Scarletts	</name>
+				<value>	1	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Peacocks	</name>
+				<value>	4 + y	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Whites	</name>
+				<value>	1	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Plums	</name>
+				<value>	1	</value>
+			</ani_family>
+		</Inter_family>
+	</animosity>
+</family>
+
+<family>
+	<name>	White	</name>
+	<short>	W	</short>
+	<wife>	Mrs White	</wife>
+	<husband>	Mr White	</husband>
+	<others>	5	</others>
+	<animosity>
+		<w2h>	4	</w2h>
+		<h2w>	1	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Mustard	</name>
+				<value>	1	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Plums	</name>
+				<value>	2	</value>
+			</ani_family>
+		</Inter_family>
+	</animosity>
+</family>
+
+<family>
+	<name>	Greens	</name>
+	<short>	W	</short>
+	<wife>	Mrs Green	</wife>
+	<husband>	Reverend Green	</husband>
+	<others>	5	</others>
+	<animosity>
+		<w2h>	3	</w2h>
+		<h2w>	2	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Scarletts	</name>
+				<value>	2	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Peacocks	</name>
+				<value>	2	</value>
+			</ani_family
+		</Inter_family>
+	</animosity>
+</family>
+
+<family>
+	<name>	Peacock	</name>
+	<short>	Pe	</short>
+	<wife>	Mrs Peacock	</wife>
+	<husband>	Mr Peacock	</husband>
+	<others>	4	</others>
+	<animosity>
+		<w2h>	2	</w2h>
+		<h2w>	3	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Greens	</name>
+				<value>	4	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Mustards	</name>
+				<value>	1 + x	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Plums	</name>
+				<value>	4	</value>
+			</ani_family>
+		</Inter_family>
+	</animosity>
+</family>
+
+<family>
+	<name>	Plum	</name>
+	<short>	Pl	</short>
+	<wife>	Professor Plum	</wife>
+	<husband>	Mr Plum	</husband>
+	<others>	4	</others>
+	<animosity>
+		<w2h>	1	</w2h>
+		<h2w>	4	</h2w>
+		<Inter_family>
+			<ani_family>
+				<name>	Peacocks	</name>
+				<value>	3	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Mustards	</name>
+				<value>	1	</value>
+			</ani_family>
+			<ani_family>
+				<name>	Whites	</name>
+				<value>	2	</value>
+			</ani_family>
+		</Inter_family>
+	</animosity>
+</family>
+
+
+
+
+
+

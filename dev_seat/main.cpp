@@ -1,0 +1,74 @@
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XX  main.cpp
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+#include "FindCombinations.h"
+
+#include "utility.h"
+#include "data.h"
+#include "GenAlgorithm.h"
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <time.h>
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XX  declarataions
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+//XXXXXXXXXXXXXXXXXXXXXX//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XX  main()
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+int main(int argc, char** argv)
+{   
+	int iter(1000), random_loop(20), pop_size(30);
+	std::cout << "input iter:" << std::endl;
+	std::cin >> iter;
+	std::cout << "input random_loop:" << std::endl;
+	std::cin >> random_loop;
+	std::cout << "input pop_size:" << std::endl;
+	std::cin >> pop_size;
+	
+	srand(clock());
+
+	// my test start
+	CGenAlgorithm *gen = new CGenAlgorithm(iter, random_loop, pop_size);
+	Chrom ret = gen->GenAlgorithm();
+
+	// my test end
+
+	// my test end
+
+	return 0;
+}
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XX  PrintArray()
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XX  end of file
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
