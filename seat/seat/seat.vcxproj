@@ -78,7 +78,7 @@
   <ItemGroup>
     <ClCompile Include="data.cpp" />
     <ClCompile Include="GenAlgorithm.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_seat.cpp" />
     <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <ItemGroup>
